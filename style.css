@@ -7,7 +7,30 @@ body {
   .name {
     position: fixed;
     top: 20px;
-    right: 20px;
-    color: #fff;
+    left: 20px;
+    color: red;
     font-size: 24px;
+    cursor: pointer;
   }
+  
+  .hello {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: blue;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .full-name {
+    display: none;
+  }
+  
+  .name:hover .initials {
+    display: none;
+  }
+  
+  .name:hover .full-name {
+    display: inline;
+  }
+  
