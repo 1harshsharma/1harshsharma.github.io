@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
   font-family: __Oswald_b42c86,__Oswald_Fallback_b42c86;
-  font-style: inherit;
+  font-style: none;
   box-sizing: border-box;
+  font-weight: 800;
 }
 
 body {
@@ -13,7 +14,8 @@ body {
   background-size: cover;
   background-attachment: fixed;
 
-  color: rgb(255, 255, 255);
+  /*color: rgb(255, 255, 255); */
+  color: rgb(228 228 231);
 }
 
 #header {
@@ -24,7 +26,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(224, 215, 255, 0.723);
+  /*background-color: rgba(224, 215, 255, 0.723);*/
+  background-color: rgba(104, 98, 125, 0.945);
   border: 2px solid rgb(145, 145, 255);
   border-radius: 5px;
   z-index: 1000;
@@ -36,7 +39,6 @@ body {
 
 .logo {
   font-size: 24px;
-  font-weight: 800;
   position: relative;
   display: inline-block;
 }
@@ -48,7 +50,7 @@ body {
 .full-name {
   position: absolute;
   top: 0;
-  left: 0; /* Adjusted left positioning */
+  left: 0;
   white-space: nowrap; /* Prevents text from wrapping */
   opacity: 0;
   transition: opacity 0.5s ease-in;
@@ -81,7 +83,8 @@ nav ul li a {
   text-align-last: center;
   max-width: max-content;
   display: inline-block;
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */  
+  color: rgb(228 228 231);
   text-decoration: none;
   font-size: 18px;
   transition: background-color 0.3s ease, color 0.3s ease;  width: 200px;
@@ -92,10 +95,9 @@ nav ul li a:hover {
   font-size: 18px;
 }
 
-
 .desc-text {
   max-width: 1000px;
-  margin: 175px auto;
+  margin: 125px auto;
   padding: 20px; 
   border-radius: 5px;
   background-color: rgba(224, 215, 255, 0.39);
@@ -124,7 +126,7 @@ nav ul li a:hover {
 
 .projects-text {
   max-width: 1000px;
-  margin: 180px auto;
+  margin: 125px auto;
   padding: 20px;
   border-radius: 5px;
   background-color: rgba(224, 215, 255, 0.39);
@@ -144,7 +146,7 @@ nav ul li a:hover {
 .projects-text li {
   max-width: max-content;
   margin-top: 20px;
-  margin-left: 310px;
+
   list-style: none;
   align-items: end;
 }
@@ -164,12 +166,12 @@ nav ul li a:hover {
   background-color: rgb(137, 139, 255);
   border: 2px solid rgb(137, 139, 255);
   border-radius: 5px;
-  color: rgb(0, 0, 0);
+  color: rgb(39, 40, 68);
 }
 
 .contact-text {
   max-width: 1000px;
-  margin: 180px auto;
+  margin: 125px auto;
   padding: 20px;
   border-radius: 5px;
   background-color: rgba(224, 215, 255, 0.39);
@@ -189,7 +191,7 @@ nav ul li a:hover {
 .contact-text li {
   max-width: max-content;
   margin-top: 20px;
-  margin-left: 310px;
+
   list-style: none;
   align-items: end;
 }
@@ -209,5 +211,26 @@ nav ul li a:hover {
   background-color: rgb(137, 139, 255);
   border: 2px solid rgb(137, 139, 255);
   border-radius: 5px;
-  color: rgb(0, 0, 0);
+  color: rgb(39, 40, 68);
+}
+
+footer {
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 5px; /* Padding around content */
+  text-align: center; /* Center align text */
+}
+
+footer p { 
+  font-weight: bold;
+}
+
+footer a {
+  text-decoration: none; /* Remove underline from links */
+  margin: 0 5px; /* Add spacing between links */
+  color: rgb(228 228 231);
+}
+
+footer a:hover {
+  text-decoration: underline; /* Underline links on hover */
 }
