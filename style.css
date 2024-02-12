@@ -1,46 +1,42 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Piazzolla, serif;;
+  font-family: __Oswald_b42c86,__Oswald_Fallback_b42c86;
+  font-style: inherit;
   box-sizing: border-box;
 }
 
 body {
-  background: rgb(251, 254, 251);
-  color: black;
+  background: rgb(255, 255, 255);
+  background-image: url('background3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  color: rgb(255, 255, 255);
 }
 
 #header {
-  width: 100%;
-  height: auto;
-  padding: 10px 0; 
-}
-
-.container {
   max-width: 1000px;
-  margin: 0 auto;
-  padding: 10px 20px; 
+  margin: -5px auto;
+  height: auto;
+  padding: 20px; 
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-}
-
-nav ul li {
-  margin-right: 20px; /* Reduced margin between list items */
+  background-color: rgba(224, 215, 255, 0.723);
+  border: 2px solid rgb(145, 145, 255);
+  border-radius: 5px;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .logo {
   font-size: 24px;
+  font-weight: 800;
   position: relative;
   display: inline-block;
 }
@@ -66,26 +62,152 @@ nav ul li {
   opacity: 1;
 }
 
-.header-text {
+nav {
+  display: flex;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+
+}
+
+nav ul li {
+  margin: 10px;
+  max-width: fit-content;
+}
+
+nav ul li a {
+  text-align-last: center;
+  max-width: max-content;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s ease, color 0.3s ease;  width: 200px;
+}
+
+nav ul li a:hover {
+  color: rgb(39, 40, 68);
+  font-size: 18px;
+}
+
+
+.desc-text {
   max-width: 1000px;
   margin: 175px auto;
+  padding: 20px; 
+  border-radius: 5px;
+  background-color: rgba(224, 215, 255, 0.39);
 }
 
-.header-text h1{
+.desc-text h1{
   font-size: 36px;
+  margin: 0px auto;
 }
 
-.header-text p {
+.desc-text p {
   max-width: 500px;
   font-size: 18px;
   margin-top: 20px;
 }
 
-.header-text a {
-  margin: 20px 20px 40px; /* Adjust the spacing between icons */
+.desc-text a {
+  margin: 15px; 
+  margin-top: 20px;
 }
 
-.header-text img {
-  width: 50px; /* Adjust the width of the icons */
-  height: 50px; /* Adjust the height of the icons */
+.desc-text img {
+  margin-top: 20px;
+  width: 50px; 
+}
+
+.projects-text {
+  max-width: 1000px;
+  margin: 180px auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(224, 215, 255, 0.39);
+}
+
+.projects-text h1 {
+  font-size: 36px;
+  margin: 0px auto;
+}
+
+.projects-text p {
+  max-width: max-content;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.projects-text li {
+  max-width: max-content;
+  margin-top: 20px;
+  margin-left: 310px;
+  list-style: none;
+  align-items: end;
+}
+
+.projects-text li a {
+  display: inline-block;
+  padding: 10px 10px; 
+  color: rgb(255, 255, 255);
+  border: 2px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.projects-text li a:hover {
+  background-color: rgb(137, 139, 255);
+  border: 2px solid rgb(137, 139, 255);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+}
+
+.contact-text {
+  max-width: 1000px;
+  margin: 180px auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(224, 215, 255, 0.39);
+}
+
+.contact-text h1 {
+  font-size: 36px;
+  margin: 0px auto;
+}
+
+.contact-text p {
+  max-width: max-content;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.contact-text li {
+  max-width: max-content;
+  margin-top: 20px;
+  margin-left: 310px;
+  list-style: none;
+  align-items: end;
+}
+
+.contact-text li a {
+  display: inline-block;
+  padding: 10px 10px; 
+  color: rgb(255, 255, 255);
+  border: 2px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact-text li a:hover {
+  background-color: rgb(137, 139, 255);
+  border: 2px solid rgb(137, 139, 255);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
 }
