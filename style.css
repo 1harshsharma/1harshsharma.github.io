@@ -43,6 +43,11 @@ body {
   display: inline-block;
 }
 
+.logo a {
+  color: rgb(228 228 231);
+  text-decoration: none;
+}
+
 .initials {
   transition: opacity 0.5s ease-in;
 }
@@ -91,8 +96,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: rgb(39, 40, 68);
+  /* color: rgb(39, 40, 68); */
+  /* color: rgb(137, 139, 255); */
   font-size: 18px;
+  text-decoration: underline; /* Underline links on hover */
 }
 
 .desc-text {
@@ -168,6 +175,53 @@ nav ul li a:hover {
   border-radius: 5px;
   color: rgb(39, 40, 68);
 }
+/* new css 
+
+.projects-text {
+  max-width: 1000px;
+  margin: 125px auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(224, 215, 255, 0.39);
+}
+
+.projects-text h1 {
+  font-size: 36px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.project {
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+}
+
+.project h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.project p {
+  font-size: 16px;
+  margin: 0;
+  padding: 0 20px;
+  text-align: center;
+}
+
+end new css */
 
 .contact-text {
   max-width: 1000px;
@@ -211,7 +265,7 @@ nav ul li a:hover {
   background-color: rgb(137, 139, 255);
   border: 2px solid rgb(137, 139, 255);
   border-radius: 5px;
-  color: rgb(39, 40, 68);
+    color: rgb(39, 40, 68);
 }
 
 footer {
