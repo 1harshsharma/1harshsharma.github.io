@@ -274,6 +274,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .project-two img {
@@ -332,6 +333,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .project-three img {
@@ -390,6 +392,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .project-four img {
@@ -437,7 +440,7 @@ nav ul li a:hover {
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-.modal {
+#myModal1 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1000; /* Sit on top */
@@ -447,11 +450,9 @@ nav ul li a:hover {
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgba(0,0,0,0.5); 
-
 }
 
-/* Modal Content/Box */
-.modal-content {
+#myModal1 .modal-content {
   background-color: #fff;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
@@ -459,15 +460,119 @@ nav ul li a:hover {
   color: rgb(2, 2, 49);
 }
 
-/* Close Button */
-.close {
+#myModal1 .close {
   color: #aaa;
   float: right;
   font-size: 23px;
   font-weight: bold;
 }
 
-.close:hover, .close:focus {
+#myModal1 .close:hover, #myModal1 .close:focus {
+  color: rgb(2,2,49);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#myModal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.5); 
+}
+
+#myModal2 .modal-content {
+  background-color: #fff;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  width: 50%; /* Could be more or less, depending on screen size */
+  color: rgb(2, 2, 49);
+}
+
+#myModal2 .close {
+  color: #aaa;
+  float: right;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+#myModal2 .close:hover, #myModal2 .close:focus {
+  color: rgb(2,2,49);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#myModal3 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.5); 
+}
+
+#myModal3 .modal-content {
+  background-color: #fff;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  width: 50%; /* Could be more or less, depending on screen size */
+  color: rgb(2, 2, 49);
+}
+
+#myModal3 .close {
+  color: #aaa;
+  float: right;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+#myModal3 .close:hover, #myModal3 .close:focus {
+  color: rgb(2,2,49);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#myModal4 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.5); 
+}
+
+#myModal4 .modal-content {
+  background-color: #fff;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  width: 50%; /* Could be more or less, depending on screen size */
+  color: rgb(2, 2, 49);
+}
+
+#myModal4 .close {
+  color: #aaa;
+  float: right;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+#myModal4 .close:hover, #myModal4 .close:focus {
   color: rgb(2,2,49);
   text-decoration: none;
   cursor: pointer;
