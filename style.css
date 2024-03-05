@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: __Oswald_b42c86,__Oswald_Fallback_b42c86;
   font-style: none;
   box-sizing: border-box;
   font-weight: 800;
@@ -673,14 +672,14 @@ footer {
 
 footer p { 
   font-weight: bold;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 footer a {
   text-decoration: none;
   margin: 0 5px;
   color: rgb(228 228 231);
-  font-size: 16px;
+  font-size: 12px;
   }
 
 footer a:hover {
@@ -690,10 +689,10 @@ footer a:hover {
 @media only screen and (max-width: 600px) {
 
   footer p {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   footer a {
-    font-size: 12px;
+    font-size: 8px;
   }
 }
